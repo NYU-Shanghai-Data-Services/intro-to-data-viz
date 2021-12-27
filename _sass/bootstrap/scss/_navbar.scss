@@ -274,23 +274,23 @@
 // White links against a dark background
 .navbar-dark {
   .navbar-brand {
-    color: $navbar-dark-brand-color;
+    color: #1d1e20;
 
     @include hover-focus() {
-      color: $navbar-dark-brand-hover-color;
+      color: #1d1e20;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-dark-color;
+      color: #1d1e20;
 
       @include hover-focus() {
-        color: $navbar-dark-hover-color;
+        color: #1d1e20;
       }
 
       &.disabled {
-        color: $navbar-dark-disabled-color;
+        color: #1d1e20;
       }
     }
 
@@ -298,13 +298,13 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-dark-active-color;
+      color: #1d1e20;
     }
   }
 
   .navbar-toggler {
-    color: $navbar-dark-color;
-    border-color: $navbar-dark-toggler-border-color;
+    color: #1d1e20;
+    border-color: #1d1e20;
   }
 
   .navbar-toggler-icon {
@@ -312,12 +312,12 @@
   }
 
   .navbar-text {
-    color: $navbar-dark-color;
+    color: #1d1e20;
     a {
-      color: $navbar-dark-active-color;
+      color: #1d1e20;
 
       @include hover-focus() {
-        color: $navbar-dark-active-color;
+        color: #1d1e20;
       }
     }
   }
