@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<!-- Banner -->
+<div class="custombanner jumbotron-fluid">
+	<div class="container text-center">
+		<h1>{{ site.data.course.title }}</h1>
+   	<p class="lead">{{site.data.course.description}}</p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 offset-lg-2">
+			<section>
+				{{ content }}
+			</section>
+		</div>
+	</div>
+</div>

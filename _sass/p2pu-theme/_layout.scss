@@ -1,0 +1,19 @@
+html {
+  height: 100%
+}
+
+body {
+  background-color: #ffbc1a1f;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1 0 auto;
+  }
+}
+
+main {
+  padding-top: $navbar-height;
+  background-color: $white;
+}
