@@ -1,11 +1,12 @@
 @font-face {
-    font-family: "Palatino";
-    src: url("../fonts/Palatino Linotype.ttf");
+    font-family: "Steppe";
+    src: url("../fonts/Steppe.ttf");
 }
 
 body {
-  font-family: "Palatino";
+  font-family: "Steppe";
   font-size: 18px;
+  background-color: #F5F0DC;
 
   a {
     color: $p2pu-blue;
